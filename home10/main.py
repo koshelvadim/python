@@ -3,15 +3,22 @@
 # Ваша задача перевести его в one hot вид. 
 # Сможете ли вы это сделать без get_dummies?
 
+# Устанавливаем библиотеки !!!
+# pip install pandas
+# pip install numpy
+
+
 import pandas as pd 
 import numpy as np 
 import random
  
+
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
 data = pd.DataFrame({'whoAmI': lst})
 print(data)
+ 
  
 print('')
 
