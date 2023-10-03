@@ -1,5 +1,6 @@
 import notebook
 
+
 def create_note(number):
     title = check_len_text_input(
         input('Введите Название заметки: '), number)

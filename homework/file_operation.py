@@ -1,5 +1,6 @@
 import notebook
 
+
 def write_file(array, mode):
     file = open("notes.csv", mode='w', encoding='utf-8')
     file.seek(0)

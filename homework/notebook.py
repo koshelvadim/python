@@ -1,6 +1,7 @@
 from datetime import datetime
 import uuid
 
+
 class Note:
     def __init__(self, id = str(uuid.uuid1())[0:2],  title = "текст", body = "текст", date = str(datetime.now().strftime("%d.%m.%Y %H:%M:%S"))):
         self.id = id
